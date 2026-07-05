@@ -1,0 +1,47 @@
+systemctl start <service>
+systemctl stop <service>
+systemctl restart <service>
+systemctl enable <service>
+systemctl disable <service>
+systemctl status <service>
+
+
+Web Server:
+nginx: yum install nginx -y ( RHEL Images yum)
+nginx: apt install nginx -y(Ubuntu images apt)
+httpd: yum install httpd -y(RHEL Images yum httpd)
+apache2: apt install apache2 -y(Ubuntu uses apache 2 apt)
+App Servers:
+tomcat: yum install tomcat -y(RHEL images)
+tomcat9: apt install tomcat9 -y(Ubuntu images)
+
+CI CD:
+Jenkins: yum install jenkins -y (RHEL)
+Jenkins: apt install jenkins -y (Ubuntu)
+
+DockeR: 
+docker: yum install docker -y
+docker: apt install docker.io -y
+
+
+Ubuntu: apt
+RHEL :yum or dnf newer versions
+
+
+Service format: systemctl start tomcat , service tomcat start (service one is old format new one is always systemctl)
+
+
+Web Servers: 
+Nginx,apache2,httpd : Port 80
+App servers:
+Tomcat, tomcat 9 , jenkins Port : 8080
+DB
+MySQL :3306
+
+
+Website/Data Files Location
+
+nginx: /usr/share/nginx/html
+apache: /var/www/html/
+tomcat: /usr/
+
