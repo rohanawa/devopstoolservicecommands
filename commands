@@ -41,7 +41,10 @@ MySQL :3306
 
 Website/Data Files Location
 
-nginx: /usr/share/nginx/html
-apache: /var/www/html/
-tomcat: /usr/
+1.httpd/apache:/var/www/html
+2.nginx:/usr/share/nginx/html
+3.jenkins:/var/lib/jenkins/workspace
+4.mysql:/var/lib/mysql
+5.tomcat: /var/lib/tomcat9/webapps/
+6.tomcat on docker: /usr/local/tomcat/webapps
 
